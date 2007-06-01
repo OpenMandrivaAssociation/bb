@@ -1,7 +1,7 @@
 Name: bb
 Summary: AA demo
 Version: 1.3.0
-Release: %mkrel 4
+Release: %mkrel 5
 Source: %{name}-%{version}.tar.bz2 
 Patch1: %{name}-1.3.0-timer.patch
 Group: Games/Other
