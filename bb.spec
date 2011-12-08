@@ -27,7 +27,7 @@ if [ -d $RPM_BUILD_ROOT ]; then rm -r $RPM_BUILD_ROOT; fi
 %makeinstall 
 
 %clean
-rm -rf $RPM_BUILD_ROOT $RPM_BUILD_DIR/file.list.%{name}
+rm -rf $RPM_BUILD_ROOT %{_builddir}/file.list.%{name}
 
 %files
 %defattr(-,root,root)
