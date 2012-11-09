@@ -1,0 +1,22 @@
+--- timers.c.org	2004-02-27 16:39:46.033599446 +0100
++++ timers.c	2004-02-27 16:39:56.781155795 +0100
+@@ -306,8 +306,8 @@
+ #endif
+ #endif
+ }
+-int
+-tl_lookup_timer (tl_timer * t)
++REGISTERS(3) int
++tl_lookup_timer (tl_timer * t)  
+ {
+   if (t->stopped)
+     {
+@@ -382,7 +382,7 @@
+ #endif
+ }
+ 
+-void
++REGISTERS(3) void
+ tl_reset_timer (tl_timer * t)
+ {
+   tl_update_time();
