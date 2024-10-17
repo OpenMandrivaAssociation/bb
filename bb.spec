@@ -5,7 +5,7 @@ Release: 11
 Source: %{name}-%{version}.tar.bz2 
 Patch1: %{name}-1.3.0-timer.patch
 Group: Games/Other
-URL: http://aa-project.sourceforge.net/aalib/
+URL: https://aa-project.sourceforge.net/aalib/
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	aalib-devel
 BuildRequires:	libmikmod-devel
