@@ -7,6 +7,11 @@ Patch1: %{name}-1.3.0-timer.patch
 Group: Games/Other
 URL: https://aa-project.sourceforge.net/aalib/
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	aalib-devel
 BuildRequires:	libmikmod-devel
 License: GPLv2+
